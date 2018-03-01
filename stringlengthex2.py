@@ -1,8 +1,9 @@
 def stringlength(stringvar):
-    return len(stringvar)
+    if type(strinput) == str:
+        return len(stringvar)
+    else:
+        print("this is not a string")
+
 
 strinput=int(input("Enter a string: "))
-if type(strinput) == str:
-    print (stringlength(strinput))
-else:
-    print("this is not a string")
+print (stringlength(strinput))
