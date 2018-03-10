@@ -1,2 +1,3 @@
-fruitfile = open ("fruits.txt").read()
-print (fruitfile)
+fruitfile = open ("fruits.txt")
+fruitstr=fruitfile.read()
+print (fruitstr)
