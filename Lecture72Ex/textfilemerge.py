@@ -9,7 +9,6 @@ def writer (filename, whatwrite):
     with open (filename, "a+") as file2:
         file2.write(whatwrite)
 
-
 currenttimeobj=datetime.now()
 currenttimestr=currenttimeobj.strftime("%Y-%m-%d-%h-%M-%S-%f")+".txt"
 i=1
