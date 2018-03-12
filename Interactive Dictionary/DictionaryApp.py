@@ -8,4 +8,4 @@ def extractj (key):
         return ("Word not in dicitionary")
 
 userin=input ("Enter a word: ")
-print (extractj(userin))
+print (extractj(userin.lower()))
