@@ -1,11 +1,17 @@
 import json
+import difflib
+from difflib import get_close_matches
 
-def extractj (key):
+def extractj (userin):
     data=json.load(open("data.json"))
-    if key in data:
-        return (data[key])
+    out=difflib.get_close_matches(userin, data.keys(), 1)
+    if userin in data:
+        return (data[userin])
+    elif len(out)>0:
+        out2=difflib.get_close_matches(userin, data.keys())
+        return "Closest matches: \n" + str(out2)
     else:
-        return ("Word not in dicitionary")
+        return ("Word not in dictionary")
 
 userin=input ("Enter a word: ")
 print (extractj(userin.lower()))
