@@ -16,9 +16,14 @@ def extractj (userin):
 def partmatch (word):
     userin=input ("Did you want to see the meaning for %s \n Yes or No?" %word)
     userin=userin.lower()
-    if user == ("yes" or "no" or "y" or "n"):
-        return word
+    while userin == "yes" or userin == "y" or userin == "no" or userin == "n":
+        if userin == "yes" or userin == "y":
+            print (word)
+        elif userin == "no" or userin == "n":
+            userin2=input ("Enter the word: \n")
+            extractj(userin2.lower())
+        else:
+            print ("Please enter 'yes' or 'no'")
 
-
-userin=input ("Enter a word: \n")
+userin=input ("\nEnter a word: \n")
 print (extractj(userin.lower()))
