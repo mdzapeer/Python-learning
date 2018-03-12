@@ -9,21 +9,34 @@ def extractj (userin):
         return (data[userin])
     elif len(out)>0:
         out2=difflib.get_close_matches(userin, data.keys())
+        print ("Closest matches to %s: \n" %userin + str(out2))
         partmatch(out)
-        return "Closest matches to %s: \n" %userin + str(out2)
+        return ""
+
     else:
         return ("Word not in dictionary\n")
+
 def partmatch (word):
-    userin=input ("Did you want to see the meaning for %s \n Yes or No?" %word)
+    data=json.load(open("data.json"))
+    word=str(word[0])
+    userin=input ("Did you want to see the meaning for '%s' \nYes or No?\n" %word)
     userin=userin.lower()
-    while userin == "yes" or userin == "y" or userin == "no" or userin == "n":
-        if userin == "yes" or userin == "y":
-            print (word)
-        elif userin == "no" or userin == "n":
-            userin2=input ("Enter the word: \n")
-            extractj(userin2.lower())
-        else:
-            print ("Please enter 'yes' or 'no'")
+    if userin == "yes" or userin == "y":
+        print(data[word])
+    elif userin == "no" or userin == "n":
+        userin2=input ("Enter the word: \n")
+        extractj(userin2.lower())
+    else:
+        while userin != "yes" or userin != "y" or userin != "no" or userin != "n":
+            userin=input ("Please enter 'yes' or 'no'")
+            if userin == "yes" or userin == "y":
+                print (word)
+                break
+            if userin == "no" or userin == "n":
+                userin2=input ("Enter the word: \n")
+                extractj(userin2.lower())
+                break
+    return ""
 
 userin=input ("\nEnter a word: \n")
 print (extractj(userin.lower()))
