@@ -9,9 +9,16 @@ def extractj (userin):
         return (data[userin])
     elif len(out)>0:
         out2=difflib.get_close_matches(userin, data.keys())
-        return "Closest matches: \n" + str(out2)
+        partmatch(out)
+        return "Closest matches to %s: \n" %userin + str(out2)
     else:
-        return ("Word not in dictionary")
+        return ("Word not in dictionary\n")
+def partmatch (word):
+    userin=input ("Did you want to see the meaning for %s \n Yes or No?" %word)
+    userin=userin.lower()
+    if user == ("yes" or "no" or "y" or "n"):
+        return word
 
-userin=input ("\nEnter a word: \n")
+
+userin=input ("Enter a word: \n")
 print (extractj(userin.lower()))
