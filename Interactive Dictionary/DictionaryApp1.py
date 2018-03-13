@@ -2,8 +2,9 @@ import json
 import difflib
 from difflib import get_close_matches
 
+data=json.load(open("data.json"))
+
 def extractj (userin):
-    data=json.load(open("data.json"))
     out=difflib.get_close_matches(userin, data.keys(), 1)
     if userin in data:
         return (data[userin])
@@ -17,7 +18,6 @@ def extractj (userin):
         return ("Word not in dictionary\n")
 
 def partmatch (word):
-    data=json.load(open("data.json"))
     word=str(word[0])
     userin=input ("Did you want to see the meaning for '%s' \nYes or No?\n" %word)
     userin=userin.lower()
