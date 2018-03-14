@@ -3,7 +3,7 @@ import difflib
 from difflib import get_close_matches
 
 data=json.load(open("data.json"))
-
+#fucntion to check the captialization
 def inputcasecheck(userin):
     if userin.title() in data:
         return (extractj(userin.title()))
@@ -11,7 +11,7 @@ def inputcasecheck(userin):
         return (extractj(userin.upper()))
     else:
         return (extractj(userin.lower()))
-
+#fucntion to check partial mathes and loop to ask correct word
 def partmatch (word):
     word=str(word[0])
     userin=input ("Did you want to see the meaning for '%s' \nYes or No?\n" %word)
@@ -34,7 +34,7 @@ def partmatch (word):
                     return (extractj(userin3.lower()))
             if userin == "yes" or userin == "y":
                 return (data[word])
-
+#function to get partial or full match
 def extractj (userin):
     out=difflib.get_close_matches(userin, data.keys(), 1)
     if userin in data:
