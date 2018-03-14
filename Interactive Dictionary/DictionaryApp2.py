@@ -34,7 +34,13 @@ def partmatch (word):
                 return (data[word])
 
 userin=input ("\nEnter a word: \n")
-output1=(extractj(userin.lower()))
+#if userin[0].isupper():
+#   output1=(extractj(userin))
+#Alternative solution using title()
+if userin.title() in data:
+    output1=(extractj(userin.title()))
+else:
+    output1=(extractj(userin.lower()))
 
 if type(output1) == list:
     for item in output1:
