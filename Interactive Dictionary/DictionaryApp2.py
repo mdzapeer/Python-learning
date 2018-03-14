@@ -50,6 +50,6 @@ output1=inputcasecheck(userin)
 
 if type(output1) == list:
     for item in output1:
-        print(item)
+        print("%s." %str(output1.index(item)+1) +item+ "\n")
 else:
     print(output1)
