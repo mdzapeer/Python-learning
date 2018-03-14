@@ -5,6 +5,9 @@ from difflib import get_close_matches
 data=json.load(open("data.json"))
 #fucntion to check the captialization
 def inputcasecheck(userin):
+#Alternative way
+#    if userin[0].isupper():
+#        return(extractj(userin))
     if userin.title() in data:
         return (extractj(userin.title()))
     elif userin.upper() in data:
@@ -47,9 +50,6 @@ def extractj (userin):
         return ("Word not in dictionary\n")
 
 userin=input ("\nEnter a word: \n")
-#if userin[0].isupper():
-#   output1=(extractj(userin))
-#Alternative solution using title()
 
 output1=inputcasecheck(userin)
 
