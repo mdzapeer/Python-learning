@@ -29,12 +29,7 @@ def partmatch (word):
             userin=input ("Please enter 'yes' or 'no': ")
             if userin == "no" or userin == "n":
                 userin3=input ("Enter the word: \n")
-                if userin.title() in data:
-                    return (extractj(userin.title()))
-                elif userin.upper() in data:
-                    return (extractj(userin.upper()))
-                else:
-                    return (extractj(userin3.lower()))
+                return inputcasecheck(userin3)
             if userin == "yes" or userin == "y":
                 return (data[word])
 #function to get partial or full match
