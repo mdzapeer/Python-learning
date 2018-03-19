@@ -2,4 +2,6 @@
 
 Interactive Dictionary Section done
 
-Working on section 'Pandas'
+Section 'Pandas' with Jupyter notebooks done
+
+Learning 'Numpy'
