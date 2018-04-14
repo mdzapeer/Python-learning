@@ -1,0 +1,2114 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css" />
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css" />
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_115c90cb401e45338eebd9d261f3e4c3 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_115c90cb401e45338eebd9d261f3e4c3" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_115c90cb401e45338eebd9d261f3e4c3 = L.map(
+                                  'map_115c90cb401e45338eebd9d261f3e4c3',
+                                  {center: [38.58,-99.09],
+                                  zoom: 6,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_8d658600e728474dae3c80595308208d = L.tileLayer(
+                'https://{s}.tiles.mapbox.com/v3/mapbox.world-bright/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_115c90cb401e45338eebd9d261f3e4c3);
+        
+    
+            var feature_group_6a3675efcafa4a88b98f7b2744110a3d = L.featureGroup(
+                ).addTo(map_115c90cb401e45338eebd9d261f3e4c3);
+        
+    
+
+            var marker_5b0b1fd79e1e4b23835fac518aaafd07 = L.marker(
+                [48.7767982,-121.810997],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6a3675efcafa4a88b98f7b2744110a3d);
+            
+    
+
+                var icon_0e66bc881a8640168435e39a47b13acc = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5b0b1fd79e1e4b23835fac518aaafd07.setIcon(icon_0e66bc881a8640168435e39a47b13acc);
+            
+    
+            var popup_f6e9dcb849e5438d8e0ddfe0b7e6bc29 = L.popup({maxWidth: '300'});
+
+            
+                var html_2e92fe2e34b14682b9d9f64a1fc0d6a8 = $('<div id="html_2e92fe2e34b14682b9d9f64a1fc0d6a8" style="width: 100.0%; height: 100.0%;">Baker US-Washington</div>')[0];
+                popup_f6e9dcb849e5438d8e0ddfe0b7e6bc29.setContent(html_2e92fe2e34b14682b9d9f64a1fc0d6a8);
+            
+
+            marker_5b0b1fd79e1e4b23835fac518aaafd07.bindPopup(popup_f6e9dcb849e5438d8e0ddfe0b7e6bc29);
+
+            
+        
+    
+
+            var marker_c68c7d7f644f49eeb8e7b262a807aca3 = L.marker(
+                [48.1118011,-121.1110001],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6a3675efcafa4a88b98f7b2744110a3d);
+            
+    
+
+                var icon_7390f9ecd1e94ce5a8552e790d19fa11 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c68c7d7f644f49eeb8e7b262a807aca3.setIcon(icon_7390f9ecd1e94ce5a8552e790d19fa11);
+            
+    
+            var popup_9342a94a6bad4dfc849c45d94e7e76e3 = L.popup({maxWidth: '300'});
+
+            
+                var html_8289a466bf7f48c5bf4d5b35e9f7ebd3 = $('<div id="html_8289a466bf7f48c5bf4d5b35e9f7ebd3" style="width: 100.0%; height: 100.0%;">Glacier Peak US-Washington</div>')[0];
+                popup_9342a94a6bad4dfc849c45d94e7e76e3.setContent(html_8289a466bf7f48c5bf4d5b35e9f7ebd3);
+            
+
+            marker_c68c7d7f644f49eeb8e7b262a807aca3.bindPopup(popup_9342a94a6bad4dfc849c45d94e7e76e3);
+
+            
+        
+    
+
+            var marker_a62005af53234cddb4a7f375529147ca = L.marker(
+                [46.8698006,-121.7509995],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6a3675efcafa4a88b98f7b2744110a3d);
+            
+    
+
+                var icon_d4eaf17da1d84f1dabf8a233f12cf897 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a62005af53234cddb4a7f375529147ca.setIcon(icon_d4eaf17da1d84f1dabf8a233f12cf897);
+            
+    
+            var popup_731e2e8d5c0845a990ede6c49be665da = L.popup({maxWidth: '300'});
+
+            
+                var html_efce98f99d104b78aa1384708330b1b2 = $('<div id="html_efce98f99d104b78aa1384708330b1b2" style="width: 100.0%; height: 100.0%;">Rainier US-Washington</div>')[0];
+                popup_731e2e8d5c0845a990ede6c49be665da.setContent(html_efce98f99d104b78aa1384708330b1b2);
+            
+
+            marker_a62005af53234cddb4a7f375529147ca.bindPopup(popup_731e2e8d5c0845a990ede6c49be665da);
+
+            
+        
+    
+
+            var marker_68078dad493f4cf4b0d61f486c84d477 = L.marker(
+                [46.1997986,-122.1809998],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6a3675efcafa4a88b98f7b2744110a3d);
+            
+    
+
+                var icon_2a5505613d1b44b4acffe49c71f97ecb = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_68078dad493f4cf4b0d61f486c84d477.setIcon(icon_2a5505613d1b44b4acffe49c71f97ecb);
+            
+    
+            var popup_9ef53365cbec4cc5b0bb9774506495ba = L.popup({maxWidth: '300'});
+
+            
+                var html_1b1e3ff084bd4c0c889f0502584bf9ed = $('<div id="html_1b1e3ff084bd4c0c889f0502584bf9ed" style="width: 100.0%; height: 100.0%;">St. Helens US-Washington</div>')[0];
+                popup_9ef53365cbec4cc5b0bb9774506495ba.setContent(html_1b1e3ff084bd4c0c889f0502584bf9ed);
+            
+
+            marker_68078dad493f4cf4b0d61f486c84d477.bindPopup(popup_9ef53365cbec4cc5b0bb9774506495ba);
+
+            
+        
+    
+
+            var marker_7f6f0546061c495883af936234277973 = L.marker(
+                [46.20579910000001,-121.4909973],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6a3675efcafa4a88b98f7b2744110a3d);
+            
+    
+
+                var icon_2786d35ca1a447f9acff698572fac0de = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7f6f0546061c495883af936234277973.setIcon(icon_2786d35ca1a447f9acff698572fac0de);
+            
+    
+            var popup_90d6e586c0514fac92dcaff347f476e7 = L.popup({maxWidth: '300'});
+
+            
+                var html_0cbea467e9624e9eb54429df13f05342 = $('<div id="html_0cbea467e9624e9eb54429df13f05342" style="width: 100.0%; height: 100.0%;">Adams US-Washington</div>')[0];
+                popup_90d6e586c0514fac92dcaff347f476e7.setContent(html_0cbea467e9624e9eb54429df13f05342);
+            
+
+            marker_7f6f0546061c495883af936234277973.bindPopup(popup_90d6e586c0514fac92dcaff347f476e7);
+
+            
+        
+    
+
+            var marker_ceae37d1f93647e48a344a141543ccec = L.marker(
+                [45.8797989,-122.0810013],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6a3675efcafa4a88b98f7b2744110a3d);
+            
+    
+
+                var icon_0ec77eec338242599aadf757a146b8f4 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ceae37d1f93647e48a344a141543ccec.setIcon(icon_0ec77eec338242599aadf757a146b8f4);
+            
+    
+            var popup_d5696c4342c64a73b44f320bad0e3d7f = L.popup({maxWidth: '300'});
+
+            
+                var html_6b977a1d11294bb297c76e8247869594 = $('<div id="html_6b977a1d11294bb297c76e8247869594" style="width: 100.0%; height: 100.0%;">West Crater US-Washington</div>')[0];
+                popup_d5696c4342c64a73b44f320bad0e3d7f.setContent(html_6b977a1d11294bb297c76e8247869594);
+            
+
+            marker_ceae37d1f93647e48a344a141543ccec.bindPopup(popup_d5696c4342c64a73b44f320bad0e3d7f);
+
+            
+        
+    
+
+            var marker_0a16aebdb6a5446798e40c70b2d60d24 = L.marker(
+                [45.929798100000006,-121.8209991],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6a3675efcafa4a88b98f7b2744110a3d);
+            
+    
+
+                var icon_2f419ffc484449feb6fcd35cb5735828 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_0a16aebdb6a5446798e40c70b2d60d24.setIcon(icon_2f419ffc484449feb6fcd35cb5735828);
+            
+    
+            var popup_f532da241c984e9ca6b5c619b171dfb3 = L.popup({maxWidth: '300'});
+
+            
+                var html_2f8068b3f79a4f39928314987448f04b = $('<div id="html_2f8068b3f79a4f39928314987448f04b" style="width: 100.0%; height: 100.0%;">Indian Heaven US-Washington</div>')[0];
+                popup_f532da241c984e9ca6b5c619b171dfb3.setContent(html_2f8068b3f79a4f39928314987448f04b);
+            
+
+            marker_0a16aebdb6a5446798e40c70b2d60d24.bindPopup(popup_f532da241c984e9ca6b5c619b171dfb3);
+
+            
+        
+    
+
+            var marker_d6ed18d2166b4678838c39344eab2031 = L.marker(
+                [45.3737984,-121.6910019],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6a3675efcafa4a88b98f7b2744110a3d);
+            
+    
+
+                var icon_27b9640e6a7447b1971296e128980d6a = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d6ed18d2166b4678838c39344eab2031.setIcon(icon_27b9640e6a7447b1971296e128980d6a);
+            
+    
+            var popup_594638153cdb4d638502a84da2ff75ac = L.popup({maxWidth: '300'});
+
+            
+                var html_fdb945f1118e4a6fb002febf8d02ff51 = $('<div id="html_fdb945f1118e4a6fb002febf8d02ff51" style="width: 100.0%; height: 100.0%;">Hood US-Oregon</div>')[0];
+                popup_594638153cdb4d638502a84da2ff75ac.setContent(html_fdb945f1118e4a6fb002febf8d02ff51);
+            
+
+            marker_d6ed18d2166b4678838c39344eab2031.bindPopup(popup_594638153cdb4d638502a84da2ff75ac);
+
+            
+        
+    
+
+            var marker_9be916c31d4b4733ad83bcd3cb8118cb = L.marker(
+                [44.691799200000005,-121.8010025],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6a3675efcafa4a88b98f7b2744110a3d);
+            
+    
+
+                var icon_dbeea33ff43e441bafa12d932b51c01b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9be916c31d4b4733ad83bcd3cb8118cb.setIcon(icon_dbeea33ff43e441bafa12d932b51c01b);
+            
+    
+            var popup_a407c09162564da8be9369bbb08eacbd = L.popup({maxWidth: '300'});
+
+            
+                var html_d31fb0c8d76e4c3691dbbca673a96f2a = $('<div id="html_d31fb0c8d76e4c3691dbbca673a96f2a" style="width: 100.0%; height: 100.0%;">Jefferson US-Oregon</div>')[0];
+                popup_a407c09162564da8be9369bbb08eacbd.setContent(html_d31fb0c8d76e4c3691dbbca673a96f2a);
+            
+
+            marker_9be916c31d4b4733ad83bcd3cb8118cb.bindPopup(popup_a407c09162564da8be9369bbb08eacbd);
+
+            
+        
+    
+
+            var marker_35cfde2f61c746b6a2df1003b0983d22 = L.marker(
+                [44.4197998,-121.7710037],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6a3675efcafa4a88b98f7b2744110a3d);
+            
+    
+
+                var icon_63b17e784c6f436886dd269ba447f128 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_35cfde2f61c746b6a2df1003b0983d22.setIcon(icon_63b17e784c6f436886dd269ba447f128);
+            
+    
+            var popup_93ba56bdaccc4c4fbbb5a2014daa4ef5 = L.popup({maxWidth: '300'});
+
+            
+                var html_87461fa3826c4a23853e8e30b535b6c3 = $('<div id="html_87461fa3826c4a23853e8e30b535b6c3" style="width: 100.0%; height: 100.0%;">Blue Lake Crater US-Oregon</div>')[0];
+                popup_93ba56bdaccc4c4fbbb5a2014daa4ef5.setContent(html_87461fa3826c4a23853e8e30b535b6c3);
+            
+
+            marker_35cfde2f61c746b6a2df1003b0983d22.bindPopup(popup_93ba56bdaccc4c4fbbb5a2014daa4ef5);
+
+            
+        
+    
+
+            var marker_9c00ac3471ac484f9275a24ca8214b03 = L.marker(
+                [44.3797989,-121.9309998],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6a3675efcafa4a88b98f7b2744110a3d);
+            
+    
+
+                var icon_b1bfe40d7d3b436f8d86193857d4fa9c = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9c00ac3471ac484f9275a24ca8214b03.setIcon(icon_b1bfe40d7d3b436f8d86193857d4fa9c);
+            
+    
+            var popup_7858fded909d4db78e993c1800c3c97a = L.popup({maxWidth: '300'});
+
+            
+                var html_be2114264e0e4c53acb7e268fcd26725 = $('<div id="html_be2114264e0e4c53acb7e268fcd26725" style="width: 100.0%; height: 100.0%;">Sand Mountain Field US-Oregon</div>')[0];
+                popup_7858fded909d4db78e993c1800c3c97a.setContent(html_be2114264e0e4c53acb7e268fcd26725);
+            
+
+            marker_9c00ac3471ac484f9275a24ca8214b03.bindPopup(popup_7858fded909d4db78e993c1800c3c97a);
+
+            
+        
+    
+
+            var marker_19a9950dd8f7467e99e37aed09665dfd = L.marker(
+                [44.331798600000006,-121.8310013],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6a3675efcafa4a88b98f7b2744110a3d);
+            
+    
+
+                var icon_ec06a718cccb4fe380119d0aeb7beda4 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_19a9950dd8f7467e99e37aed09665dfd.setIcon(icon_ec06a718cccb4fe380119d0aeb7beda4);
+            
+    
+            var popup_79657eda71324c039ff366e604d95938 = L.popup({maxWidth: '300'});
+
+            
+                var html_52ade5f0ac9b445789ced3cdb787b5ed = $('<div id="html_52ade5f0ac9b445789ced3cdb787b5ed" style="width: 100.0%; height: 100.0%;">Washington US-Oregon</div>')[0];
+                popup_79657eda71324c039ff366e604d95938.setContent(html_52ade5f0ac9b445789ced3cdb787b5ed);
+            
+
+            marker_19a9950dd8f7467e99e37aed09665dfd.bindPopup(popup_79657eda71324c039ff366e604d95938);
+
+            
+        
+    
+
+            var marker_0d33afb1054347579fdf97ebf772bb7d = L.marker(
+                [44.2848015,-121.8410034],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6a3675efcafa4a88b98f7b2744110a3d);
+            
+    
+
+                var icon_6acef357a14447c38f9d9e8dbf02d189 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_0d33afb1054347579fdf97ebf772bb7d.setIcon(icon_6acef357a14447c38f9d9e8dbf02d189);
+            
+    
+            var popup_95067fef1fd84efba494def9d59d550d = L.popup({maxWidth: '300'});
+
+            
+                var html_94252c488f314469ab0a931f81632174 = $('<div id="html_94252c488f314469ab0a931f81632174" style="width: 100.0%; height: 100.0%;">Belknap US-Oregon</div>')[0];
+                popup_95067fef1fd84efba494def9d59d550d.setContent(html_94252c488f314469ab0a931f81632174);
+            
+
+            marker_0d33afb1054347579fdf97ebf772bb7d.bindPopup(popup_95067fef1fd84efba494def9d59d550d);
+
+            
+        
+    
+
+            var marker_53eef772d80a47a8aa5eaeed313bd1bf = L.marker(
+                [44.1697998,-121.7710037],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6a3675efcafa4a88b98f7b2744110a3d);
+            
+    
+
+                var icon_9bcf6baa18594343b0c7215c8f8b3c2d = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_53eef772d80a47a8aa5eaeed313bd1bf.setIcon(icon_9bcf6baa18594343b0c7215c8f8b3c2d);
+            
+    
+            var popup_caaba085ebc0477f95c5a21ec442dea3 = L.popup({maxWidth: '300'});
+
+            
+                var html_a4185b4be7b34296a4ff81aeefc3b874 = $('<div id="html_a4185b4be7b34296a4ff81aeefc3b874" style="width: 100.0%; height: 100.0%;">North Sister Field US-Oregon</div>')[0];
+                popup_caaba085ebc0477f95c5a21ec442dea3.setContent(html_a4185b4be7b34296a4ff81aeefc3b874);
+            
+
+            marker_53eef772d80a47a8aa5eaeed313bd1bf.bindPopup(popup_caaba085ebc0477f95c5a21ec442dea3);
+
+            
+        
+    
+
+            var marker_671af7f79491453b978dd1c9b1a4af8d = L.marker(
+                [44.099800099999996,-121.7710037],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6a3675efcafa4a88b98f7b2744110a3d);
+            
+    
+
+                var icon_97d336b1b3f64efca3ad28635970144f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_671af7f79491453b978dd1c9b1a4af8d.setIcon(icon_97d336b1b3f64efca3ad28635970144f);
+            
+    
+            var popup_7f563a993e54447fa50f8c6d589f06c6 = L.popup({maxWidth: '300'});
+
+            
+                var html_fd715d0119404c67896acb20ec6b4f94 = $('<div id="html_fd715d0119404c67896acb20ec6b4f94" style="width: 100.0%; height: 100.0%;">South Sister US-Oregon</div>')[0];
+                popup_7f563a993e54447fa50f8c6d589f06c6.setContent(html_fd715d0119404c67896acb20ec6b4f94);
+            
+
+            marker_671af7f79491453b978dd1c9b1a4af8d.bindPopup(popup_7f563a993e54447fa50f8c6d589f06c6);
+
+            
+        
+    
+
+            var marker_6cf5ab0aad9b476c971be50c1ebe94c0 = L.marker(
+                [43.978801700000005,-121.6809998],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6a3675efcafa4a88b98f7b2744110a3d);
+            
+    
+
+                var icon_d1e591e2e1574e82840347856ee1be33 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6cf5ab0aad9b476c971be50c1ebe94c0.setIcon(icon_d1e591e2e1574e82840347856ee1be33);
+            
+    
+            var popup_54d369e52ff744b6b7a1fe2439243ef7 = L.popup({maxWidth: '300'});
+
+            
+                var html_ef74839e163d4ed98d7d2676ef14d229 = $('<div id="html_ef74839e163d4ed98d7d2676ef14d229" style="width: 100.0%; height: 100.0%;">Bachelor US-Oregon</div>')[0];
+                popup_54d369e52ff744b6b7a1fe2439243ef7.setContent(html_ef74839e163d4ed98d7d2676ef14d229);
+            
+
+            marker_6cf5ab0aad9b476c971be50c1ebe94c0.bindPopup(popup_54d369e52ff744b6b7a1fe2439243ef7);
+
+            
+        
+    
+
+            var marker_2b8a1642c37c4e9ea1a8dbe63e64499a = L.marker(
+                [43.7218018,-121.2210007],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6a3675efcafa4a88b98f7b2744110a3d);
+            
+    
+
+                var icon_ff12cdb75ebe4caa941c13cbdbb273dd = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2b8a1642c37c4e9ea1a8dbe63e64499a.setIcon(icon_ff12cdb75ebe4caa941c13cbdbb273dd);
+            
+    
+            var popup_9f87e7cb2649404e9017d34464bb2e3a = L.popup({maxWidth: '300'});
+
+            
+                var html_81b2bdc610744c43a130fbb82325b55c = $('<div id="html_81b2bdc610744c43a130fbb82325b55c" style="width: 100.0%; height: 100.0%;">Newberry Volcano US-Oregon</div>')[0];
+                popup_9f87e7cb2649404e9017d34464bb2e3a.setContent(html_81b2bdc610744c43a130fbb82325b55c);
+            
+
+            marker_2b8a1642c37c4e9ea1a8dbe63e64499a.bindPopup(popup_9f87e7cb2649404e9017d34464bb2e3a);
+
+            
+        
+    
+
+            var marker_7316fb2efffe4c9da682582b6d1d1ea5 = L.marker(
+                [43.569801299999995,-121.8209991],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6a3675efcafa4a88b98f7b2744110a3d);
+            
+    
+
+                var icon_b74bc0f2122f439abaa6b771582c9487 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7316fb2efffe4c9da682582b6d1d1ea5.setIcon(icon_b74bc0f2122f439abaa6b771582c9487);
+            
+    
+            var popup_c4f53beeb638452b85413c04d9a6a889 = L.popup({maxWidth: '300'});
+
+            
+                var html_41836d6587fa46a5874a4f4a758b5c2a = $('<div id="html_41836d6587fa46a5874a4f4a758b5c2a" style="width: 100.0%; height: 100.0%;">Davis Lake US-Oregon</div>')[0];
+                popup_c4f53beeb638452b85413c04d9a6a889.setContent(html_41836d6587fa46a5874a4f4a758b5c2a);
+            
+
+            marker_7316fb2efffe4c9da682582b6d1d1ea5.bindPopup(popup_c4f53beeb638452b85413c04d9a6a889);
+
+            
+        
+    
+
+            var marker_856522668b514dcdbc4f02d708ceb9af = L.marker(
+                [43.5119019,-120.8610001],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6a3675efcafa4a88b98f7b2744110a3d);
+            
+    
+
+                var icon_56a987add4ee40588f43a237bb667952 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_856522668b514dcdbc4f02d708ceb9af.setIcon(icon_56a987add4ee40588f43a237bb667952);
+            
+    
+            var popup_20de07b3763e40c3955a382b55d91f29 = L.popup({maxWidth: '300'});
+
+            
+                var html_6da10b7260bb49e486ae731a58d9a798 = $('<div id="html_6da10b7260bb49e486ae731a58d9a798" style="width: 100.0%; height: 100.0%;">Devils Garden US-Oregon</div>')[0];
+                popup_20de07b3763e40c3955a382b55d91f29.setContent(html_6da10b7260bb49e486ae731a58d9a798);
+            
+
+            marker_856522668b514dcdbc4f02d708ceb9af.bindPopup(popup_20de07b3763e40c3955a382b55d91f29);
+
+            
+        
+    
+
+            var marker_d54579271b3a4891a87f68ebea12d615 = L.marker(
+                [43.240798999999996,-122.10099790000001],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6a3675efcafa4a88b98f7b2744110a3d);
+            
+    
+
+                var icon_89794b5a7f9e428faad425bb52733865 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d54579271b3a4891a87f68ebea12d615.setIcon(icon_89794b5a7f9e428faad425bb52733865);
+            
+    
+            var popup_d050258eb42044d3bfcc1fb2eacdda2f = L.popup({maxWidth: '300'});
+
+            
+                var html_5fd62c9ef5264aa587774a86524f8f4c = $('<div id="html_5fd62c9ef5264aa587774a86524f8f4c" style="width: 100.0%; height: 100.0%;">Cinnamon Butte US-Oregon</div>')[0];
+                popup_d050258eb42044d3bfcc1fb2eacdda2f.setContent(html_5fd62c9ef5264aa587774a86524f8f4c);
+            
+
+            marker_d54579271b3a4891a87f68ebea12d615.bindPopup(popup_d050258eb42044d3bfcc1fb2eacdda2f);
+
+            
+        
+    
+
+            var marker_61588d82980341fbae577dfbc353af4c = L.marker(
+                [43.471900899999994,-120.7509995],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6a3675efcafa4a88b98f7b2744110a3d);
+            
+    
+
+                var icon_824478dc85fb44e2a78dd223cb9aa6a0 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_61588d82980341fbae577dfbc353af4c.setIcon(icon_824478dc85fb44e2a78dd223cb9aa6a0);
+            
+    
+            var popup_6e3d1916a17148ae8b6b9dae0e76abc9 = L.popup({maxWidth: '300'});
+
+            
+                var html_67ba4d2185674a309baf170a94b5e607 = $('<div id="html_67ba4d2185674a309baf170a94b5e607" style="width: 100.0%; height: 100.0%;">Squaw Ridge Lava Field US-Oregon</div>')[0];
+                popup_6e3d1916a17148ae8b6b9dae0e76abc9.setContent(html_67ba4d2185674a309baf170a94b5e607);
+            
+
+            marker_61588d82980341fbae577dfbc353af4c.bindPopup(popup_6e3d1916a17148ae8b6b9dae0e76abc9);
+
+            
+        
+    
+
+            var marker_9ce159875ea24ec5bcc5f843080da764 = L.marker(
+                [43.3609009,-120.6610031],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6a3675efcafa4a88b98f7b2744110a3d);
+            
+    
+
+                var icon_6fd7f564384742168c15650db28fd959 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9ce159875ea24ec5bcc5f843080da764.setIcon(icon_6fd7f564384742168c15650db28fd959);
+            
+    
+            var popup_57091a6948e54f7f9ca7a3340f5f5a31 = L.popup({maxWidth: '300'});
+
+            
+                var html_7fd93500dfec4cf9b72aa0ec607e992e = $('<div id="html_7fd93500dfec4cf9b72aa0ec607e992e" style="width: 100.0%; height: 100.0%;">Four Craters Lava Field US-Oregon</div>')[0];
+                popup_57091a6948e54f7f9ca7a3340f5f5a31.setContent(html_7fd93500dfec4cf9b72aa0ec607e992e);
+            
+
+            marker_9ce159875ea24ec5bcc5f843080da764.bindPopup(popup_57091a6948e54f7f9ca7a3340f5f5a31);
+
+            
+        
+    
+
+            var marker_fc920fdc5c0e477ab4dbefb91fdaef08 = L.marker(
+                [42.9299011,-122.1210022],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6a3675efcafa4a88b98f7b2744110a3d);
+            
+    
+
+                var icon_bab49e1aa3a7428198de5c8b692c1e78 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_fc920fdc5c0e477ab4dbefb91fdaef08.setIcon(icon_bab49e1aa3a7428198de5c8b692c1e78);
+            
+    
+            var popup_30f307d66a2a469b82d3a69bf4ebe16f = L.popup({maxWidth: '300'});
+
+            
+                var html_49aa3026c31944138e52fd13252c345f = $('<div id="html_49aa3026c31944138e52fd13252c345f" style="width: 100.0%; height: 100.0%;">Crater Lake US-Oregon</div>')[0];
+                popup_30f307d66a2a469b82d3a69bf4ebe16f.setContent(html_49aa3026c31944138e52fd13252c345f);
+            
+
+            marker_fc920fdc5c0e477ab4dbefb91fdaef08.bindPopup(popup_30f307d66a2a469b82d3a69bf4ebe16f);
+
+            
+        
+    
+
+            var marker_811f14387845456cb7487cd839be7e2e = L.marker(
+                [44.4299011,-110.6709976],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6a3675efcafa4a88b98f7b2744110a3d);
+            
+    
+
+                var icon_e0518f5545a648c98a53d9c3066c9ed2 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_811f14387845456cb7487cd839be7e2e.setIcon(icon_e0518f5545a648c98a53d9c3066c9ed2);
+            
+    
+            var popup_41e1df005f774e229e518ad5dd81e0d1 = L.popup({maxWidth: '300'});
+
+            
+                var html_824fe65bbe834d319139095513046c99 = $('<div id="html_824fe65bbe834d319139095513046c99" style="width: 100.0%; height: 100.0%;">Yellowstone US-Wyoming</div>')[0];
+                popup_41e1df005f774e229e518ad5dd81e0d1.setContent(html_824fe65bbe834d319139095513046c99);
+            
+
+            marker_811f14387845456cb7487cd839be7e2e.bindPopup(popup_41e1df005f774e229e518ad5dd81e0d1);
+
+            
+        
+    
+
+            var marker_4d03c5b07ff0441da4d9d0a07f94bc3c = L.marker(
+                [43.0998993,-118.7509995],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6a3675efcafa4a88b98f7b2744110a3d);
+            
+    
+
+                var icon_7b32a777c0cd449bb35d56b222ab0976 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4d03c5b07ff0441da4d9d0a07f94bc3c.setIcon(icon_7b32a777c0cd449bb35d56b222ab0976);
+            
+    
+            var popup_d5b35579555c4a5fa2034eb9307ca69c = L.popup({maxWidth: '300'});
+
+            
+                var html_dd23ebf2a076405ab7c108575852b903 = $('<div id="html_dd23ebf2a076405ab7c108575852b903" style="width: 100.0%; height: 100.0%;">Diamond Craters US-Oregon</div>')[0];
+                popup_d5b35579555c4a5fa2034eb9307ca69c.setContent(html_dd23ebf2a076405ab7c108575852b903);
+            
+
+            marker_4d03c5b07ff0441da4d9d0a07f94bc3c.bindPopup(popup_d5b35579555c4a5fa2034eb9307ca69c);
+
+            
+        
+    
+
+            var marker_c2985021a4b5414680c96d114770f15a = L.marker(
+                [43.1498985,-117.4710007],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6a3675efcafa4a88b98f7b2744110a3d);
+            
+    
+
+                var icon_c0fa0406449e437c93eb15be8d1a98a4 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c2985021a4b5414680c96d114770f15a.setIcon(icon_c0fa0406449e437c93eb15be8d1a98a4);
+            
+    
+            var popup_07002d70669b41948a740ecae9347404 = L.popup({maxWidth: '300'});
+
+            
+                var html_ecf87445451d40d4a4ce9b15f8728cb2 = $('<div id="html_ecf87445451d40d4a4ce9b15f8728cb2" style="width: 100.0%; height: 100.0%;">Jordan Craters US-Oregon</div>')[0];
+                popup_07002d70669b41948a740ecae9347404.setContent(html_ecf87445451d40d4a4ce9b15f8728cb2);
+            
+
+            marker_c2985021a4b5414680c96d114770f15a.bindPopup(popup_07002d70669b41948a740ecae9347404);
+
+            
+        
+    
+
+            var marker_94af9d93225d4320a5d9ade75ca10f5e = L.marker(
+                [42.9999008,-117.8010025],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6a3675efcafa4a88b98f7b2744110a3d);
+            
+    
+
+                var icon_5d5ff8c8b4214b05a14de49c24728a93 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_94af9d93225d4320a5d9ade75ca10f5e.setIcon(icon_5d5ff8c8b4214b05a14de49c24728a93);
+            
+    
+            var popup_2d7e198ca4b348baac514d429ddc555b = L.popup({maxWidth: '300'});
+
+            
+                var html_f016be44faac4ccf86297353e3ae19dc = $('<div id="html_f016be44faac4ccf86297353e3ae19dc" style="width: 100.0%; height: 100.0%;">Saddle Butte US-Oregon</div>')[0];
+                popup_2d7e198ca4b348baac514d429ddc555b.setContent(html_f016be44faac4ccf86297353e3ae19dc);
+            
+
+            marker_94af9d93225d4320a5d9ade75ca10f5e.bindPopup(popup_2d7e198ca4b348baac514d429ddc555b);
+
+            
+        
+    
+
+            var marker_9edbbf9188234d55bb5887cd097499aa = L.marker(
+                [43.419899,-113.5009995],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6a3675efcafa4a88b98f7b2744110a3d);
+            
+    
+
+                var icon_85444142458548b7a06dc8d8c012fe20 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9edbbf9188234d55bb5887cd097499aa.setIcon(icon_85444142458548b7a06dc8d8c012fe20);
+            
+    
+            var popup_7169f1d48e7e40389a85428b8626ff7f = L.popup({maxWidth: '300'});
+
+            
+                var html_427506291a1143c186b1ebf6f602e64e = $('<div id="html_427506291a1143c186b1ebf6f602e64e" style="width: 100.0%; height: 100.0%;">Craters of the Moon US-Idaho</div>')[0];
+                popup_7169f1d48e7e40389a85428b8626ff7f.setContent(html_427506291a1143c186b1ebf6f602e64e);
+            
+
+            marker_9edbbf9188234d55bb5887cd097499aa.bindPopup(popup_7169f1d48e7e40389a85428b8626ff7f);
+
+            
+        
+    
+
+            var marker_5367900d0b4f46db95cbec8b0db78999 = L.marker(
+                [43.4999008,-112.45099640000001],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6a3675efcafa4a88b98f7b2744110a3d);
+            
+    
+
+                var icon_29e0fa054e154e5aa86d0fc9a44d8534 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5367900d0b4f46db95cbec8b0db78999.setIcon(icon_29e0fa054e154e5aa86d0fc9a44d8534);
+            
+    
+            var popup_7e732934758142349022f112b871a32a = L.popup({maxWidth: '300'});
+
+            
+                var html_96e3505cc2f2423c8042923a291caae4 = $('<div id="html_96e3505cc2f2423c8042923a291caae4" style="width: 100.0%; height: 100.0%;">Hell&#39;s Half Acre US-Idaho</div>')[0];
+                popup_7e732934758142349022f112b871a32a.setContent(html_96e3505cc2f2423c8042923a291caae4);
+            
+
+            marker_5367900d0b4f46db95cbec8b0db78999.bindPopup(popup_7e732934758142349022f112b871a32a);
+
+            
+        
+    
+
+            var marker_5288bd7df7904ed58472fc104627d3d2 = L.marker(
+                [43.1799011,-114.35099790000001],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6a3675efcafa4a88b98f7b2744110a3d);
+            
+    
+
+                var icon_e98a84b622364c14a53153b3c016f3a5 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5288bd7df7904ed58472fc104627d3d2.setIcon(icon_e98a84b622364c14a53153b3c016f3a5);
+            
+    
+            var popup_dfcbdd27109f43f0a2e81f3e01524165 = L.popup({maxWidth: '300'});
+
+            
+                var html_9392ce7e81b649dc9f95a9efb11fc99c = $('<div id="html_9392ce7e81b649dc9f95a9efb11fc99c" style="width: 100.0%; height: 100.0%;">Shoshone Lava Field US-Idaho</div>')[0];
+                popup_dfcbdd27109f43f0a2e81f3e01524165.setContent(html_9392ce7e81b649dc9f95a9efb11fc99c);
+            
+
+            marker_5288bd7df7904ed58472fc104627d3d2.bindPopup(popup_dfcbdd27109f43f0a2e81f3e01524165);
+
+            
+        
+    
+
+            var marker_ba7b3993d8784ab291e9ca1654590f18 = L.marker(
+                [42.605899799999996,-117.5810013],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6a3675efcafa4a88b98f7b2744110a3d);
+            
+    
+
+                var icon_2b9ffabb501f450490653100de1701bc = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ba7b3993d8784ab291e9ca1654590f18.setIcon(icon_2b9ffabb501f450490653100de1701bc);
+            
+    
+            var popup_ba4f715c900a43b48e6719d89216ac71 = L.popup({maxWidth: '300'});
+
+            
+                var html_94f1e9558c8641a9a577bccd2e5409d0 = $('<div id="html_94f1e9558c8641a9a577bccd2e5409d0" style="width: 100.0%; height: 100.0%;">Jackies Butte US-Oregon</div>')[0];
+                popup_ba4f715c900a43b48e6719d89216ac71.setContent(html_94f1e9558c8641a9a577bccd2e5409d0);
+            
+
+            marker_ba7b3993d8784ab291e9ca1654590f18.bindPopup(popup_ba4f715c900a43b48e6719d89216ac71);
+
+            
+        
+    
+
+            var marker_bf6c0aefb1ef467e9e3ce58614ee05ba = L.marker(
+                [41.579898799999995,-121.5709991],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6a3675efcafa4a88b98f7b2744110a3d);
+            
+    
+
+                var icon_bf20052991bf453cb355c7179e830c03 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_bf6c0aefb1ef467e9e3ce58614ee05ba.setIcon(icon_bf20052991bf453cb355c7179e830c03);
+            
+    
+            var popup_ec3dac60c7be49c79929bca351d1385a = L.popup({maxWidth: '300'});
+
+            
+                var html_5cbc4899441f4e0fa3f44351e6734932 = $('<div id="html_5cbc4899441f4e0fa3f44351e6734932" style="width: 100.0%; height: 100.0%;">Medicine Lake US-California</div>')[0];
+                popup_ec3dac60c7be49c79929bca351d1385a.setContent(html_5cbc4899441f4e0fa3f44351e6734932);
+            
+
+            marker_bf6c0aefb1ef467e9e3ce58614ee05ba.bindPopup(popup_ec3dac60c7be49c79929bca351d1385a);
+
+            
+        
+    
+
+            var marker_d34dea7ad98846ce8766dd28bf680a38 = L.marker(
+                [42.8799019,-113.2210007],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6a3675efcafa4a88b98f7b2744110a3d);
+            
+    
+
+                var icon_6cd0ac80c5ab4e15a261b8ad6d8e0574 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d34dea7ad98846ce8766dd28bf680a38.setIcon(icon_6cd0ac80c5ab4e15a261b8ad6d8e0574);
+            
+    
+            var popup_ff40f1260c874a2da42863a7fb7f8357 = L.popup({maxWidth: '300'});
+
+            
+                var html_cf09a1117ebd473ca680204d4f42a355 = $('<div id="html_cf09a1117ebd473ca680204d4f42a355" style="width: 100.0%; height: 100.0%;">Wapi Lava Field US-Idaho</div>')[0];
+                popup_ff40f1260c874a2da42863a7fb7f8357.setContent(html_cf09a1117ebd473ca680204d4f42a355);
+            
+
+            marker_d34dea7ad98846ce8766dd28bf680a38.bindPopup(popup_ff40f1260c874a2da42863a7fb7f8357);
+
+            
+        
+    
+
+            var marker_8262410710c145eea1742236c54c4812 = L.marker(
+                [41.419899,-122.20099640000001],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6a3675efcafa4a88b98f7b2744110a3d);
+            
+    
+
+                var icon_3455852fddcd497ebaea701fe1538a37 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_8262410710c145eea1742236c54c4812.setIcon(icon_3455852fddcd497ebaea701fe1538a37);
+            
+    
+            var popup_d2a28c229ad4494d807783bb192b4008 = L.popup({maxWidth: '300'});
+
+            
+                var html_a6a393a0b3694dcea0f5af303cf8e4e5 = $('<div id="html_a6a393a0b3694dcea0f5af303cf8e4e5" style="width: 100.0%; height: 100.0%;">Shasta US-California</div>')[0];
+                popup_d2a28c229ad4494d807783bb192b4008.setContent(html_a6a393a0b3694dcea0f5af303cf8e4e5);
+            
+
+            marker_8262410710c145eea1742236c54c4812.bindPopup(popup_d2a28c229ad4494d807783bb192b4008);
+
+            
+        
+    
+
+            var marker_aa563fae0bf94985b5c6ef4f80cfae91 = L.marker(
+                [41.1778984,-121.4410019],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6a3675efcafa4a88b98f7b2744110a3d);
+            
+    
+
+                var icon_70060c1980874d6d971ab5e4c2ae028d = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_aa563fae0bf94985b5c6ef4f80cfae91.setIcon(icon_70060c1980874d6d971ab5e4c2ae028d);
+            
+    
+            var popup_995831ff591445a888a8e3e49b99be54 = L.popup({maxWidth: '300'});
+
+            
+                var html_2f3dffe1d63e4045b9a1f05a1482a0c7 = $('<div id="html_2f3dffe1d63e4045b9a1f05a1482a0c7" style="width: 100.0%; height: 100.0%;">Brushy Butte US-California</div>')[0];
+                popup_995831ff591445a888a8e3e49b99be54.setContent(html_2f3dffe1d63e4045b9a1f05a1482a0c7);
+            
+
+            marker_aa563fae0bf94985b5c6ef4f80cfae91.bindPopup(popup_995831ff591445a888a8e3e49b99be54);
+
+            
+        
+    
+
+            var marker_cf6b89ce27684d348adbb2da9a752aff = L.marker(
+                [40.954898799999995,-121.3610001],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6a3675efcafa4a88b98f7b2744110a3d);
+            
+    
+
+                var icon_45eff280f3ca4ae1a0c0b53b4654a901 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_cf6b89ce27684d348adbb2da9a752aff.setIcon(icon_45eff280f3ca4ae1a0c0b53b4654a901);
+            
+    
+            var popup_4c5d54c952d4421d98bd56859cbd4c91 = L.popup({maxWidth: '300'});
+
+            
+                var html_2e4d2f04c49347fea9be3f611ede4f51 = $('<div id="html_2e4d2f04c49347fea9be3f611ede4f51" style="width: 100.0%; height: 100.0%;">Big Cave US-California</div>')[0];
+                popup_4c5d54c952d4421d98bd56859cbd4c91.setContent(html_2e4d2f04c49347fea9be3f611ede4f51);
+            
+
+            marker_cf6b89ce27684d348adbb2da9a752aff.bindPopup(popup_4c5d54c952d4421d98bd56859cbd4c91);
+
+            
+        
+    
+
+            var marker_71f546e17e254229ac944d0faf43ab37 = L.marker(
+                [40.77989960000001,-121.60099790000001],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6a3675efcafa4a88b98f7b2744110a3d);
+            
+    
+
+                var icon_80f9d21dc60e42759f0a539926124efd = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_71f546e17e254229ac944d0faf43ab37.setIcon(icon_80f9d21dc60e42759f0a539926124efd);
+            
+    
+            var popup_078dd327b6da4c9cb28cd8c32927e9a7 = L.popup({maxWidth: '300'});
+
+            
+                var html_a88f00a72f8e42908cb13803e68bcc3a = $('<div id="html_a88f00a72f8e42908cb13803e68bcc3a" style="width: 100.0%; height: 100.0%;">Twin Buttes US-California</div>')[0];
+                popup_078dd327b6da4c9cb28cd8c32927e9a7.setContent(html_a88f00a72f8e42908cb13803e68bcc3a);
+            
+
+            marker_71f546e17e254229ac944d0faf43ab37.bindPopup(popup_078dd327b6da4c9cb28cd8c32927e9a7);
+
+            
+        
+    
+
+            var marker_83355f7a028044f0b85689e45eafc5df = L.marker(
+                [40.6799011,-121.5510025],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6a3675efcafa4a88b98f7b2744110a3d);
+            
+    
+
+                var icon_0949d42ba9b245a2858b09a92d2d0d3e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_83355f7a028044f0b85689e45eafc5df.setIcon(icon_0949d42ba9b245a2858b09a92d2d0d3e);
+            
+    
+            var popup_780d084d03904d31a54ef15520ec0aa8 = L.popup({maxWidth: '300'});
+
+            
+                var html_b242d89dfc2c4f16a619befe2b1dbb41 = $('<div id="html_b242d89dfc2c4f16a619befe2b1dbb41" style="width: 100.0%; height: 100.0%;">Tumble Buttes US-California</div>')[0];
+                popup_780d084d03904d31a54ef15520ec0aa8.setContent(html_b242d89dfc2c4f16a619befe2b1dbb41);
+            
+
+            marker_83355f7a028044f0b85689e45eafc5df.bindPopup(popup_780d084d03904d31a54ef15520ec0aa8);
+
+            
+        
+    
+
+            var marker_d52fade52b45444f81afee3b7ce258f8 = L.marker(
+                [40.6299019,-120.8310013],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6a3675efcafa4a88b98f7b2744110a3d);
+            
+    
+
+                var icon_cd60b3999c034b95b6776956c29576dc = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d52fade52b45444f81afee3b7ce258f8.setIcon(icon_cd60b3999c034b95b6776956c29576dc);
+            
+    
+            var popup_2f32c21245064614b0a685d5da3108a6 = L.popup({maxWidth: '300'});
+
+            
+                var html_0349b389704b4e498e2acc5dd3738e30 = $('<div id="html_0349b389704b4e498e2acc5dd3738e30" style="width: 100.0%; height: 100.0%;">Eagle Lake Field US-California</div>')[0];
+                popup_2f32c21245064614b0a685d5da3108a6.setContent(html_0349b389704b4e498e2acc5dd3738e30);
+            
+
+            marker_d52fade52b45444f81afee3b7ce258f8.bindPopup(popup_2f32c21245064614b0a685d5da3108a6);
+
+            
+        
+    
+
+            var marker_f5dba3b67d1242c1941f7ee08bbded12 = L.marker(
+                [40.491901399999996,-121.5009995],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6a3675efcafa4a88b98f7b2744110a3d);
+            
+    
+
+                var icon_6b58eceedc924eaa9025011256044ebd = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f5dba3b67d1242c1941f7ee08bbded12.setIcon(icon_6b58eceedc924eaa9025011256044ebd);
+            
+    
+            var popup_fdc7db85eaa045e2865fab64be8242e9 = L.popup({maxWidth: '300'});
+
+            
+                var html_8007b336584c4a619c5f85488a914d58 = $('<div id="html_8007b336584c4a619c5f85488a914d58" style="width: 100.0%; height: 100.0%;">Lassen Volc Center US-California</div>')[0];
+                popup_fdc7db85eaa045e2865fab64be8242e9.setContent(html_8007b336584c4a619c5f85488a914d58);
+            
+
+            marker_f5dba3b67d1242c1941f7ee08bbded12.bindPopup(popup_fdc7db85eaa045e2865fab64be8242e9);
+
+            
+        
+    
+
+            var marker_84e5d7e8251e4ce0a606c37dc5cdf952 = L.marker(
+                [38.9698982,-122.7710037],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6a3675efcafa4a88b98f7b2744110a3d);
+            
+    
+
+                var icon_c1183f2341424aa89f0b4367ab3c2635 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_84e5d7e8251e4ce0a606c37dc5cdf952.setIcon(icon_c1183f2341424aa89f0b4367ab3c2635);
+            
+    
+            var popup_ab29891ee8af403ab782db1bdc49127e = L.popup({maxWidth: '300'});
+
+            
+                var html_aed5d3ae1da348d18293cc16259615b7 = $('<div id="html_aed5d3ae1da348d18293cc16259615b7" style="width: 100.0%; height: 100.0%;">Clear Lake US-California</div>')[0];
+                popup_ab29891ee8af403ab782db1bdc49127e.setContent(html_aed5d3ae1da348d18293cc16259615b7);
+            
+
+            marker_84e5d7e8251e4ce0a606c37dc5cdf952.bindPopup(popup_ab29891ee8af403ab782db1bdc49127e);
+
+            
+        
+    
+
+            var marker_7ef1ba36004b41439c6ee9226f554914 = L.marker(
+                [39.3749008,-119.7210007],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6a3675efcafa4a88b98f7b2744110a3d);
+            
+    
+
+                var icon_d327086f3e934c79a53fe94b692bda7e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7ef1ba36004b41439c6ee9226f554914.setIcon(icon_d327086f3e934c79a53fe94b692bda7e);
+            
+    
+            var popup_99112df86087427bb2146ceeacd94196 = L.popup({maxWidth: '300'});
+
+            
+                var html_7113a24b2f0f409ba8f949fe690b4825 = $('<div id="html_7113a24b2f0f409ba8f949fe690b4825" style="width: 100.0%; height: 100.0%;">Steamboat Springs US-Nevada</div>')[0];
+                popup_99112df86087427bb2146ceeacd94196.setContent(html_7113a24b2f0f409ba8f949fe690b4825);
+            
+
+            marker_7ef1ba36004b41439c6ee9226f554914.bindPopup(popup_99112df86087427bb2146ceeacd94196);
+
+            
+        
+    
+
+            var marker_7984dc80dd4f4e24997ff91e24dca7ba = L.marker(
+                [39.6500015,-107.03099820000001],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6a3675efcafa4a88b98f7b2744110a3d);
+            
+    
+
+                var icon_5f5cd5f716904a21807b54483e24ae49 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7984dc80dd4f4e24997ff91e24dca7ba.setIcon(icon_5f5cd5f716904a21807b54483e24ae49);
+            
+    
+            var popup_442f1bcc696941c3801d91b7b6dab42e = L.popup({maxWidth: '300'});
+
+            
+                var html_1f7201314a2a46e695d716b35e5f4aa0 = $('<div id="html_1f7201314a2a46e695d716b35e5f4aa0" style="width: 100.0%; height: 100.0%;">Dotsero US-Colorado</div>')[0];
+                popup_442f1bcc696941c3801d91b7b6dab42e.setContent(html_1f7201314a2a46e695d716b35e5f4aa0);
+            
+
+            marker_7984dc80dd4f4e24997ff91e24dca7ba.bindPopup(popup_442f1bcc696941c3801d91b7b6dab42e);
+
+            
+        
+    
+
+            var marker_712083ab117b4153b1dbdbc3ea5a58c1 = L.marker(
+                [37.9999008,-119.03099820000001],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6a3675efcafa4a88b98f7b2744110a3d);
+            
+    
+
+                var icon_b6882ca060554712b540947526382d36 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_712083ab117b4153b1dbdbc3ea5a58c1.setIcon(icon_b6882ca060554712b540947526382d36);
+            
+    
+            var popup_cb81e77527844a6585b2027c5f2e2c59 = L.popup({maxWidth: '300'});
+
+            
+                var html_037f2678f48b4f6cacf5e1abf166a4f5 = $('<div id="html_037f2678f48b4f6cacf5e1abf166a4f5" style="width: 100.0%; height: 100.0%;">Mono Lake Volc Field US-California</div>')[0];
+                popup_cb81e77527844a6585b2027c5f2e2c59.setContent(html_037f2678f48b4f6cacf5e1abf166a4f5);
+            
+
+            marker_712083ab117b4153b1dbdbc3ea5a58c1.bindPopup(popup_cb81e77527844a6585b2027c5f2e2c59);
+
+            
+        
+    
+
+            var marker_b581b2e498d940068fd3e8aceb6fde39 = L.marker(
+                [38.970001200000006,-112.5009995],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6a3675efcafa4a88b98f7b2744110a3d);
+            
+    
+
+                var icon_371f0faffc174f77baedd7526293b3dc = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b581b2e498d940068fd3e8aceb6fde39.setIcon(icon_371f0faffc174f77baedd7526293b3dc);
+            
+    
+            var popup_d96faf52da0047c5a23fb506870cc36d = L.popup({maxWidth: '300'});
+
+            
+                var html_d3d1e2aef35248b5b87ee22841ad10b8 = $('<div id="html_d3d1e2aef35248b5b87ee22841ad10b8" style="width: 100.0%; height: 100.0%;">Black Rock Desert US-Utah</div>')[0];
+                popup_d96faf52da0047c5a23fb506870cc36d.setContent(html_d3d1e2aef35248b5b87ee22841ad10b8);
+            
+
+            marker_b581b2e498d940068fd3e8aceb6fde39.bindPopup(popup_d96faf52da0047c5a23fb506870cc36d);
+
+            
+        
+    
+
+            var marker_a141713313f14d64b8503e45e4c2d96e = L.marker(
+                [37.8799019,-119.0009995],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6a3675efcafa4a88b98f7b2744110a3d);
+            
+    
+
+                var icon_439ba1446554478b8de61f8e167f04e2 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a141713313f14d64b8503e45e4c2d96e.setIcon(icon_439ba1446554478b8de61f8e167f04e2);
+            
+    
+            var popup_0bcdbd71bfbb4cabb0804c61d2ae2738 = L.popup({maxWidth: '300'});
+
+            
+                var html_db501baeb64c4a2aa3d706ad4afbd4bc = $('<div id="html_db501baeb64c4a2aa3d706ad4afbd4bc" style="width: 100.0%; height: 100.0%;">Mono Craters US-California</div>')[0];
+                popup_0bcdbd71bfbb4cabb0804c61d2ae2738.setContent(html_db501baeb64c4a2aa3d706ad4afbd4bc);
+            
+
+            marker_a141713313f14d64b8503e45e4c2d96e.bindPopup(popup_0bcdbd71bfbb4cabb0804c61d2ae2738);
+
+            
+        
+    
+
+            var marker_47df02de6b174f82ae5cfaf9531c2ebe = L.marker(
+                [37.6918983,-119.0210037],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6a3675efcafa4a88b98f7b2744110a3d);
+            
+    
+
+                var icon_8a9665dfacec42ec992bc5f32807c7e0 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_47df02de6b174f82ae5cfaf9531c2ebe.setIcon(icon_8a9665dfacec42ec992bc5f32807c7e0);
+            
+    
+            var popup_f51dc31e01a64369b6b59e646ee26811 = L.popup({maxWidth: '300'});
+
+            
+                var html_ba3b8845e9b04923b67af20e44e3de68 = $('<div id="html_ba3b8845e9b04923b67af20e44e3de68" style="width: 100.0%; height: 100.0%;">Inyo Craters US-California</div>')[0];
+                popup_f51dc31e01a64369b6b59e646ee26811.setContent(html_ba3b8845e9b04923b67af20e44e3de68);
+            
+
+            marker_47df02de6b174f82ae5cfaf9531c2ebe.bindPopup(popup_f51dc31e01a64369b6b59e646ee26811);
+
+            
+        
+    
+
+            var marker_f6d240c1629f496c87cac4306910f4b2 = L.marker(
+                [37.6999016,-118.8710022],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6a3675efcafa4a88b98f7b2744110a3d);
+            
+    
+
+                var icon_b985b165d43a4053bb37a39a736d3c2a = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f6d240c1629f496c87cac4306910f4b2.setIcon(icon_b985b165d43a4053bb37a39a736d3c2a);
+            
+    
+            var popup_5b8a0580f91a4955b86297fd718b8216 = L.popup({maxWidth: '300'});
+
+            
+                var html_332fdc3cd3df4881b10ea7144c7139ed = $('<div id="html_332fdc3cd3df4881b10ea7144c7139ed" style="width: 100.0%; height: 100.0%;">Long Valley US-California</div>')[0];
+                popup_5b8a0580f91a4955b86297fd718b8216.setContent(html_332fdc3cd3df4881b10ea7144c7139ed);
+            
+
+            marker_f6d240c1629f496c87cac4306910f4b2.bindPopup(popup_5b8a0580f91a4955b86297fd718b8216);
+
+            
+        
+    
+
+            var marker_d71b4c27204f4290808a82778d65d191 = L.marker(
+                [37.579898799999995,-119.0510025],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6a3675efcafa4a88b98f7b2744110a3d);
+            
+    
+
+                var icon_02df0b55a99a427b84f168ece49e391d = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d71b4c27204f4290808a82778d65d191.setIcon(icon_02df0b55a99a427b84f168ece49e391d);
+            
+    
+            var popup_6821df3238344432b5228a0a23928e32 = L.popup({maxWidth: '300'});
+
+            
+                var html_f8fa0f94a2a848febeeaefae214609da = $('<div id="html_f8fa0f94a2a848febeeaefae214609da" style="width: 100.0%; height: 100.0%;">Red Cones US-California</div>')[0];
+                popup_6821df3238344432b5228a0a23928e32.setContent(html_f8fa0f94a2a848febeeaefae214609da);
+            
+
+            marker_d71b4c27204f4290808a82778d65d191.bindPopup(popup_6821df3238344432b5228a0a23928e32);
+
+            
+        
+    
+
+            var marker_fa68dc64cd364bc98539581914c425e9 = L.marker(
+                [37.0199013,-117.45099640000001],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6a3675efcafa4a88b98f7b2744110a3d);
+            
+    
+
+                var icon_a3c8b085c660482d9f838c7754e3aa07 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_fa68dc64cd364bc98539581914c425e9.setIcon(icon_a3c8b085c660482d9f838c7754e3aa07);
+            
+    
+            var popup_75d5586a94af4d8d87d2a66e1755e69e = L.popup({maxWidth: '300'});
+
+            
+                var html_a9d9afe7234a4a4ea9b707cd30018c5a = $('<div id="html_a9d9afe7234a4a4ea9b707cd30018c5a" style="width: 100.0%; height: 100.0%;">Ubehebe Craters US-California</div>')[0];
+                popup_75d5586a94af4d8d87d2a66e1755e69e.setContent(html_a9d9afe7234a4a4ea9b707cd30018c5a);
+            
+
+            marker_fa68dc64cd364bc98539581914c425e9.bindPopup(popup_75d5586a94af4d8d87d2a66e1755e69e);
+
+            
+        
+    
+
+            var marker_d83a996195cc48ccb4be244d21a01c7c = L.marker(
+                [37.5800018,-112.6709976],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6a3675efcafa4a88b98f7b2744110a3d);
+            
+    
+
+                var icon_a6ce0cda87e141f59c9a8e0165ce2689 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d83a996195cc48ccb4be244d21a01c7c.setIcon(icon_a6ce0cda87e141f59c9a8e0165ce2689);
+            
+    
+            var popup_ec13604091b34e87933cc4fe30bbc6fc = L.popup({maxWidth: '300'});
+
+            
+                var html_4963aefe8880490d9e94b39d1dcb276c = $('<div id="html_4963aefe8880490d9e94b39d1dcb276c" style="width: 100.0%; height: 100.0%;">Markagunt Plateau US-Utah</div>')[0];
+                popup_ec13604091b34e87933cc4fe30bbc6fc.setContent(html_4963aefe8880490d9e94b39d1dcb276c);
+            
+
+            marker_d83a996195cc48ccb4be244d21a01c7c.bindPopup(popup_ec13604091b34e87933cc4fe30bbc6fc);
+
+            
+        
+    
+
+            var marker_97ab52a381754cbc8d8248f8d04b4d7d = L.marker(
+                [37.257,-113.6210022],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6a3675efcafa4a88b98f7b2744110a3d);
+            
+    
+
+                var icon_060adde801814db398ac4cf058537d97 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_97ab52a381754cbc8d8248f8d04b4d7d.setIcon(icon_060adde801814db398ac4cf058537d97);
+            
+    
+            var popup_f94f5ea276fd448e8d2e4976bb3c3b1d = L.popup({maxWidth: '300'});
+
+            
+                var html_271788ab470344a3b0b7c755f82631da = $('<div id="html_271788ab470344a3b0b7c755f82631da" style="width: 100.0%; height: 100.0%;">Santa Clara US-Utah</div>')[0];
+                popup_f94f5ea276fd448e8d2e4976bb3c3b1d.setContent(html_271788ab470344a3b0b7c755f82631da);
+            
+
+            marker_97ab52a381754cbc8d8248f8d04b4d7d.bindPopup(popup_f94f5ea276fd448e8d2e4976bb3c3b1d);
+
+            
+        
+    
+
+            var marker_92e975e2b84b4bc9a8eea54050fa7152 = L.marker(
+                [37.32799910000001,-112.40100100000001],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6a3675efcafa4a88b98f7b2744110a3d);
+            
+    
+
+                var icon_60b1aa427df54667b55b8dec42a566d5 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_92e975e2b84b4bc9a8eea54050fa7152.setIcon(icon_60b1aa427df54667b55b8dec42a566d5);
+            
+    
+            var popup_38af2930286f45a995defaf02dc1ff0f = L.popup({maxWidth: '300'});
+
+            
+                var html_4d4b303171a14e74899a5fb5867bfa4e = $('<div id="html_4d4b303171a14e74899a5fb5867bfa4e" style="width: 100.0%; height: 100.0%;">Bald Knoll US-Utah</div>')[0];
+                popup_38af2930286f45a995defaf02dc1ff0f.setContent(html_4d4b303171a14e74899a5fb5867bfa4e);
+            
+
+            marker_92e975e2b84b4bc9a8eea54050fa7152.bindPopup(popup_38af2930286f45a995defaf02dc1ff0f);
+
+            
+        
+    
+
+            var marker_1cfb3abbf4e04c74a3012fe82effda7c = L.marker(
+                [36.3578987,-118.3209991],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6a3675efcafa4a88b98f7b2744110a3d);
+            
+    
+
+                var icon_e01a38a6972a4aad81e5fc3526f74512 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_1cfb3abbf4e04c74a3012fe82effda7c.setIcon(icon_e01a38a6972a4aad81e5fc3526f74512);
+            
+    
+            var popup_d16ec664a0af4cdb81a6dae71bd3ffe9 = L.popup({maxWidth: '300'});
+
+            
+                var html_0844df4c700b4c6ba846bd1505c756a9 = $('<div id="html_0844df4c700b4c6ba846bd1505c756a9" style="width: 100.0%; height: 100.0%;">Golden Trout Creek US-California</div>')[0];
+                popup_d16ec664a0af4cdb81a6dae71bd3ffe9.setContent(html_0844df4c700b4c6ba846bd1505c756a9);
+            
+
+            marker_1cfb3abbf4e04c74a3012fe82effda7c.bindPopup(popup_d16ec664a0af4cdb81a6dae71bd3ffe9);
+
+            
+        
+    
+
+            var marker_56813d646a914d46bc99f0afdf5ac1ad = L.marker(
+                [36.02989960000001,-117.8209991],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6a3675efcafa4a88b98f7b2744110a3d);
+            
+    
+
+                var icon_45e2837ecb7645838533292072846c2f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_56813d646a914d46bc99f0afdf5ac1ad.setIcon(icon_45e2837ecb7645838533292072846c2f);
+            
+    
+            var popup_4d5dd64e82e04191b1e8dc841445dbf5 = L.popup({maxWidth: '300'});
+
+            
+                var html_627e260f5699409e90ede4734a06a861 = $('<div id="html_627e260f5699409e90ede4734a06a861" style="width: 100.0%; height: 100.0%;">Coso Volc Field US-California</div>')[0];
+                popup_4d5dd64e82e04191b1e8dc841445dbf5.setContent(html_627e260f5699409e90ede4734a06a861);
+            
+
+            marker_56813d646a914d46bc99f0afdf5ac1ad.bindPopup(popup_4d5dd64e82e04191b1e8dc841445dbf5);
+
+            
+        
+    
+
+            var marker_68001a617e3f4225bc4364d6fbfc696c = L.marker(
+                [36.3800011,-113.1309967],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6a3675efcafa4a88b98f7b2744110a3d);
+            
+    
+
+                var icon_9cefdcee74834d299e4346ea22f939ed = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_68001a617e3f4225bc4364d6fbfc696c.setIcon(icon_9cefdcee74834d299e4346ea22f939ed);
+            
+    
+            var popup_98eb349dee9449d39e41927bb780d1dd = L.popup({maxWidth: '300'});
+
+            
+                var html_785af829ba2c4a91ad7a0c5a4ece436f = $('<div id="html_785af829ba2c4a91ad7a0c5a4ece436f" style="width: 100.0%; height: 100.0%;">Uinkaret Field US-Arizona</div>')[0];
+                popup_98eb349dee9449d39e41927bb780d1dd.setContent(html_785af829ba2c4a91ad7a0c5a4ece436f);
+            
+
+            marker_68001a617e3f4225bc4364d6fbfc696c.bindPopup(popup_98eb349dee9449d39e41927bb780d1dd);
+
+            
+        
+    
+
+            var marker_8f3b1b46fb884b8ba2031eb9db161155 = L.marker(
+                [34.75,-116.6210022],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6a3675efcafa4a88b98f7b2744110a3d);
+            
+    
+
+                var icon_572aa72b0e4541c3a22dd9ab394c295c = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_8f3b1b46fb884b8ba2031eb9db161155.setIcon(icon_572aa72b0e4541c3a22dd9ab394c295c);
+            
+    
+            var popup_4478f690f7e6458b97625f8b285c5920 = L.popup({maxWidth: '300'});
+
+            
+                var html_4e15265daac94674bd50c55cf01bbf69 = $('<div id="html_4e15265daac94674bd50c55cf01bbf69" style="width: 100.0%; height: 100.0%;">Lavic Lake US-California</div>')[0];
+                popup_4478f690f7e6458b97625f8b285c5920.setContent(html_4e15265daac94674bd50c55cf01bbf69);
+            
+
+            marker_8f3b1b46fb884b8ba2031eb9db161155.bindPopup(popup_4478f690f7e6458b97625f8b285c5920);
+
+            
+        
+    
+
+            var marker_7e434d1348fd4db6a9fe3adda171c30e = L.marker(
+                [35.8699989,-106.5709991],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6a3675efcafa4a88b98f7b2744110a3d);
+            
+    
+
+                var icon_e808ea83d22c4130b623aaf3c358d5ce = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7e434d1348fd4db6a9fe3adda171c30e.setIcon(icon_e808ea83d22c4130b623aaf3c358d5ce);
+            
+    
+            var popup_7db0acc7ce9f4df6bb66c58c4aeb9600 = L.popup({maxWidth: '300'});
+
+            
+                var html_0fe78977d8a84d699b84190e5a0e73f1 = $('<div id="html_0fe78977d8a84d699b84190e5a0e73f1" style="width: 100.0%; height: 100.0%;">Valles Caldera US-New Mexico</div>')[0];
+                popup_7db0acc7ce9f4df6bb66c58c4aeb9600.setContent(html_0fe78977d8a84d699b84190e5a0e73f1);
+            
+
+            marker_7e434d1348fd4db6a9fe3adda171c30e.bindPopup(popup_7db0acc7ce9f4df6bb66c58c4aeb9600);
+
+            
+        
+    
+
+            var marker_36ee656320e94da89668932862b9ac65 = L.marker(
+                [35.3699989,-111.5009995],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6a3675efcafa4a88b98f7b2744110a3d);
+            
+    
+
+                var icon_14e9490a4ca4441193bd8195debb7ab2 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_36ee656320e94da89668932862b9ac65.setIcon(icon_14e9490a4ca4441193bd8195debb7ab2);
+            
+    
+            var popup_cc22dbbf7b25432180cb131d1b989f88 = L.popup({maxWidth: '300'});
+
+            
+                var html_6d633abb80ae421c838b17b4fb0f185a = $('<div id="html_6d633abb80ae421c838b17b4fb0f185a" style="width: 100.0%; height: 100.0%;">Sunset Crater US-Arizona</div>')[0];
+                popup_cc22dbbf7b25432180cb131d1b989f88.setContent(html_6d633abb80ae421c838b17b4fb0f185a);
+            
+
+            marker_36ee656320e94da89668932862b9ac65.bindPopup(popup_cc22dbbf7b25432180cb131d1b989f88);
+
+            
+        
+    
+
+            var marker_baf29b2a3f5e4115b054dcda265fb650 = L.marker(
+                [34.5499992,-115.78099820000001],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6a3675efcafa4a88b98f7b2744110a3d);
+            
+    
+
+                var icon_a955eecaf278459f99c480f0bc93e507 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_baf29b2a3f5e4115b054dcda265fb650.setIcon(icon_a955eecaf278459f99c480f0bc93e507);
+            
+    
+            var popup_ea0cc8070ab0424094a34f8caed6c10d = L.popup({maxWidth: '300'});
+
+            
+                var html_242321d023274affaa8d9ff01c8f5b4d = $('<div id="html_242321d023274affaa8d9ff01c8f5b4d" style="width: 100.0%; height: 100.0%;">Amboy US-California</div>')[0];
+                popup_ea0cc8070ab0424094a34f8caed6c10d.setContent(html_242321d023274affaa8d9ff01c8f5b4d);
+            
+
+            marker_baf29b2a3f5e4115b054dcda265fb650.bindPopup(popup_ea0cc8070ab0424094a34f8caed6c10d);
+
+            
+        
+    
+
+            var marker_49c2d509ccc541e79a105ceb8c3239c4 = L.marker(
+                [34.7999992,-108.0009995],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6a3675efcafa4a88b98f7b2744110a3d);
+            
+    
+
+                var icon_7f1d3e3c648341e1b2d0b788c7164f5c = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_49c2d509ccc541e79a105ceb8c3239c4.setIcon(icon_7f1d3e3c648341e1b2d0b788c7164f5c);
+            
+    
+            var popup_41e58931717447b1bef91396d2a73ee7 = L.popup({maxWidth: '300'});
+
+            
+                var html_4fc9a78ec2824d83ab197e9edae31b0f = $('<div id="html_4fc9a78ec2824d83ab197e9edae31b0f" style="width: 100.0%; height: 100.0%;">Zuni-Bandera US-New Mexico</div>')[0];
+                popup_41e58931717447b1bef91396d2a73ee7.setContent(html_4fc9a78ec2824d83ab197e9edae31b0f);
+            
+
+            marker_49c2d509ccc541e79a105ceb8c3239c4.bindPopup(popup_41e58931717447b1bef91396d2a73ee7);
+
+            
+        
+    
+
+            var marker_8f621078722447a4ab3bc38d85e0a5fa = L.marker(
+                [33.7801018,-105.9309998],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6a3675efcafa4a88b98f7b2744110a3d);
+            
+    
+
+                var icon_b439308c0af14de3a068a6e759113d2c = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_8f621078722447a4ab3bc38d85e0a5fa.setIcon(icon_b439308c0af14de3a068a6e759113d2c);
+            
+    
+            var popup_05469b990d3646bfaf30039227d738eb = L.popup({maxWidth: '300'});
+
+            
+                var html_17faa9da6df141b88dc5fe44c3e08c8e = $('<div id="html_17faa9da6df141b88dc5fe44c3e08c8e" style="width: 100.0%; height: 100.0%;">Carrizozo US-New Mexico</div>')[0];
+                popup_05469b990d3646bfaf30039227d738eb.setContent(html_17faa9da6df141b88dc5fe44c3e08c8e);
+            
+
+            marker_8f621078722447a4ab3bc38d85e0a5fa.bindPopup(popup_05469b990d3646bfaf30039227d738eb);
+
+            
+        
+</script>
