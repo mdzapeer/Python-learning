@@ -19,3 +19,7 @@
 # localhost name resolution is handled within DNS itself.
 #	127.0.0.1       localhost
 #	::1             localhost
+127.0.0.0 www.facebook
+127.0.0.0 facebook.com
+127.0.0.0 www.youtube.com
+127.0.0.0 youtube.com
