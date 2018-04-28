@@ -21,7 +21,25 @@ def viewRows():
     rows=cur.fetchall()
     return rows
 
+def deleteRow(item):
+    conn=sqlite3.connect("lite.db")
+    cur=conn.cursor()
+    cur.execute("DELETE FROM STORE WHERE item=?",(item,))
+    conn.commit()
+    conn.close()
+
+def updateRow(item, quantity, price):
+        conn=sqlite3.connect("lite.db")
+        cur=conn.cursor()
+        cur.execute("UPDATE STORE SET quantity=?, price=? WHERE item=?",(quantity, price, item))
+        conn.commit()
+        conn.close()
+
+
 createTable()
+print("Before: \n")
 print(viewRows())
-insertRow("Glass Bottle",15,1.7)
+updateRow("MUG",29,3.6)
+#insertRow("Wine glass",30,10.5)
+print("After: \n")
 print(viewRows())
